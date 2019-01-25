@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="HelloWorld.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWorld"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="Btn1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                 VerticalContentAlignment="Bottom" Content="Hello World" Grid.Row="0"></Button>
+        <TextBox x:Name="tb1" AcceptsReturn="True" HorizontalAlignment="Stretch" 
+                 VerticalAlignment="Stretch" Grid.Row="1"></TextBox>
+    </Grid>
+</Page>
