@@ -1,0 +1,1 @@
+git clone https://github.com/yzhangec/DJIWindowsSDK_MavicAir.git
